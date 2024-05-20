@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+.background{
+    padding-top: 100px;
+    height: 900px;
+    background-color: oldlace;
+   
+
+}
+
+h1{ 
+    text-align: center;
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4rem;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.box{
+    width: 300px;
+    background-color: #FFF;
+    border: 5px solid #000;
+    border-radius: 5%;
+
+}
+
+.thumbnail{
+    flex: 1 1 200px;
+    background-color: blue;
+    height: 250px;
+    border-radius: 5%;
+}
+
+.content{
+    flex: 2 1 300px;
+    text-align: center;
+}
+
+.sarah{
+    background-image: url('../images/SarahBarista.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ava{
+    background-image: url('../images/AvaBarista.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.colin{
+    background-image: url('../images/ColinBarista.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hannah{
+    background-image: url('../images/HannahBarista.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.damion{
+    background-image: url('../images/DamionBarista.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.teamGrid{
+    display: grid;
+    align-content: center;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(5, auto);
+    height: 500px;
+}
+
+.polaroid{
+    height: 400px;
+    width: 300px;
+    background-color: #000;
+}
+
+.polaroid img{
+    height: 300px;
+    width: 200px;
+    margin: 20px 50px;
+    
+}
+
+.polaroid h2{
+    font-size: 1.75rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    line-height: 0.1;
+    margin: 5px;
+    color: #FFF
+}
+
+.polaroid h3{
+    font-size: 1.25rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: #FFF
+}*/
+
+
+
+

@@ -1,0 +1,209 @@
+/* Remove the white space at the top of the header */
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    background-color: white; 
+    padding-top: 120px;
+
+}
+
+header{
+    border-bottom: 1px solid white;
+    height: 120px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    z-index: 1;
+}
+
+.title{
+    text-align: left;
+    float: inline-start;
+    font-size: 2rem;
+    width: 100%;
+    
+}
+
+.logo{
+    height: 135px;
+    width: 135px;
+    background-image: url("../images/Cat.gif");
+    background-size: contain;
+    image-resolution: 400dpi;
+    background-repeat: no-repeat;
+    float: inline-start;
+    padding-left: 20px;
+}
+
+.title h1{
+    float: inline-start;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
+
+header nav{
+    text-align: center;
+    font-size: 1.5rem;
+    float: right;
+    
+}
+
+nav a{
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    padding-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a:hover{
+    color: darkgray;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+}
+
+.column{
+    flex: 70%;
+    margin: 10px;
+    height: auto;
+    width: auto;
+
+}
+
+#cafePicture{
+    background-image: url("../images/CatCafe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+
+}
+
+.missionStatement{
+    text-align: center;
+    margin: 150px 0;
+    overflow: hidden;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.4;
+    
+}
+
+.missionStatement h1{
+    font-size: 3.5rem;
+    
+}
+
+.missionStatement h4{
+    font-size: 1.25rem;
+    padding: 10px;
+    font-weight: 400;
+}
+
+
+.gallery{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 2rem;
+    
+}
+
+.cafeGallery{
+    margin: 20px;
+    display: flex;
+    height: 30rem;
+    gap: 1rem;
+    flex-direction: row-reverse;
+}
+
+.cafeGallery > div{
+    flex: 1;
+    border-radius: 2rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+
+.cafeGallery > div:hover{
+    flex: 2;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    font-size: 1.25rem;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 1370px){
+    .row{
+        grid-template-columns: 1fr;
+        grid-auto-rows: 1fr;
+        margin: 0 auto;
+    }
+
+    #cafePicture{
+        background-attachment: fixed;
+    }
+
+    .missionStatement{
+        top: 0;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 692px){
+    .title{
+        font-size: 1rem;
+        padding-top: 10px;
+        line-height: 0.8;
+    }
+
+    .logo{
+        height: 110px;
+        width: 110px;
+        padding-left: 30px;
+    }
+
+    .missionStatement h1{
+        font-size: 1.5rem;
+    }
+
+    .missionStatement h4{
+        font-size: 1rem;
+    }
+
+    .cafeGallery{
+        flex-direction: column;
+        height: 60rem;
+    }
+
+    .cafeGallery > div{
+        flex: 1;
+        background-size: 100%;
+        
+    }
+
+    .cafeGallery > div:hover{
+        flex: 4;
+    }
+
+}
+
