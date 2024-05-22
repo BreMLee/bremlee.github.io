@@ -14,15 +14,33 @@
         <div class="title">
             <div class="logo"></div>
             <h1>Catspresso Café</h1>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="cats.html">The Cats</a>
-                <a href="team.html">The Team</a>
-                <a href="menu.html">Café Menu</a>
-                <a href="contactForm.html">Contact</a>
-                <a href="appointment.html">Book an Appointment</a>
-            </nav>
+            <div class="menu" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
         </div>
+        
+        <script>
+            function myFunction(x){
+                x.classList.toggle('change');
+                var x = document.getElementById('links');
+                if (x.style.display === 'block'){
+                    x.style.display = 'none';
+                } else {
+                    x.style.display = 'block';
+                }
+            }
+        </script>
+
+        <nav id="links">
+            <a href="index.html">Home</a>
+            <a href="cats.html">The Cats</a>
+            <a href="team.html">The Team</a>
+            <a href="menu.html">Café Menu</a>
+            <a href="contactForm.html">Contact</a>
+            <a href="appointment.html">Book an Appointment</a>
+        </nav>
     </header>
     <h1>Our Team</h1>
     <div class="container">

@@ -113,6 +113,20 @@ footer{
     
 }
 
+@media screen and (min-width: 1200px){
+    .grid{
+        grid-template-columns: repeat(4, auto);
+        gap: 50px;
+        height: 1300px;
+    }
+
+
+    
+
+
+}
+
+
 @media screen and (max-width: 720px){
     .grid{
         grid-template-columns: repeat(2, auto);
