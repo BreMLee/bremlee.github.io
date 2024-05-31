@@ -10,8 +10,6 @@ html{
     padding-top: 100px;
     height: 900px;
     background-color: oldlace;
-   
-
 }
 
 h1{ 
@@ -49,37 +47,28 @@ h1{
 }
 
 .sarah{
-    background-image: url('../images/SarahBarista.jpg');
-    background-position: center;
+
+    background: url('../images/SarahBarista.jpg') no-repeat center;
     background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .ava{
-    background-image: url('../images/AvaBarista.jpg');
-    background-position: center;
+    background: url('../images/AvaBarista.jpg') no-repeat center;
     background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .colin{
-    background-image: url('../images/ColinBarista.jpg');
-    background-position: center;
+    background: url('../images/ColinBarista.jpg') no-repeat center;
     background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .hannah{
-    background-image: url('../images/HannahBarista.jpg');
-    background-position: center;
+    background: url('../images/HannahBarista.jpg') no-repeat center;
     background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .damion{
-    background-image: url('../images/DamionBarista.jpg');
-    background-position: center;
+    background: url('../images/DamionBarista.jpg') no-repeat center;
     background-size: cover;
-    background-repeat: no-repeat;
 }
 

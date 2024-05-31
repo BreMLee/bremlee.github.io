@@ -10,21 +10,24 @@
 
 <body>
     <header>
-        <div class="title">
+        <div class="head">
             <div class="logo"></div>
-            <h1>Catspresso Café</h1>
+            <div class="title">
+                <h1>Catspresso Café</h1>
+            </div>
             <div class="menu" onclick="myFunction(this)">
                 <div class="bar1"></div>
                 <div class="bar2"></div>
                 <div class="bar3"></div>
             </div>
         </div>
-        
+
+
         <script>
-            function myFunction(x){
+            function myFunction(x) {
                 x.classList.toggle('change');
                 var x = document.getElementById('links');
-                if (x.style.display === 'block'){
+                if (x.style.display === 'block') {
                     x.style.display = 'none';
                 } else {
                     x.style.display = 'block';
@@ -41,6 +44,7 @@
             <a href="appointment.html">Book an Appointment</a>
         </nav>
     </header>
+
     <div class="row">
         <div id="cafePicture" class="column"></div>
         <div class="missionStatement column">
