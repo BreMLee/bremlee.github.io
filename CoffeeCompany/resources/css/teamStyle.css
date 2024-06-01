@@ -6,13 +6,12 @@ html{
     font-size: 16px;
 }
 
-.background{
-    padding-top: 100px;
-    height: 900px;
+body{
+    padding-top: 120px;
     background-color: oldlace;
 }
 
-h1{ 
+.pageTitle h1{ 
     text-align: center;
     color: #000;
     font-family: 'Courier New', Courier, monospace;
@@ -72,3 +71,18 @@ h1{
     background-size: cover;
 }
 
+@media only screen and (max-width: 480px){
+    .pageTitle h1{
+        font-size: 2.5rem;
+    }
+
+    .box{
+        width: 250px;
+    }
+
+    footer{
+        font-size: 0.8rem;
+    }
+
+
+}
